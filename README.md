@@ -3,21 +3,22 @@
 1. Common Misconceptions
 1. Pros: So, then why “mobile-first”?
 1. Cons: What must we watch out for?
+1. Resources
 
 ***
 
 ## Common Misconceptions
 
-#### FALSE: Mobile-first means that the target audience includes smart phones or tablets.
+#### Mobile-first means that the target audience includes smart phones or tablets.
 Mobile-first is a methodology that increases the intrinsic value of the web application regardless of the target audience’s device. Window re-sizing and zooming must be considered for web applications running on a desktop experience.
 
-#### FALSE: Mobile-first is pointless because we will author a native OS application, or outsource the creation of one, if we need to support mobile devices.
+#### Mobile-first is pointless because we will author a native OS application, or outsource the creation of one, if we need to support mobile devices.
 There are more options to consider when switching from a web application to a native application, such as whether the user requirements involve native OS features, application availability (must it be downloaded from the iphone or android store), and more. Shy of these additional requirements, a web application will suffice. If a native OS application is needed, mobile-first user workflows and UI views are already paid for and only a technology conversion is required. A responsible mobile-first approach will cost us less to support a mobile device in the future but will ensure pay off regardless.
 
-#### FALSE: Mobile-first means that the application will be ready for tablets.
+#### Mobile-first means that the application will be ready for tablets.
 When assessing device-compatibility there is more to consider aside from mobile-first design principles. For instance, touch screen interactions and browser compatibility (not all devices support all browsers).
 
-#### FALSE: Mobile-first is over-engineering of a web application.
+#### Mobile-first is over-engineering of a web application.
 Mobile-first design principles provide web applications intrinsic value regardless of the target device. It is about engineering for agility -- being prepared structurally so that product teams can deliver business features free of the burden of having to contemplate design concepts at the Product Backlog Item level.
 
 ***
@@ -56,6 +57,12 @@ Additionally, this forces us to think about focused screens which has even more 
 1. Legacy software is not applicable. It will be easier to adopt this methodology in new projects.
 1. It requires that we think very differently about how we design the software.
 1. Restricted workflows
+
+***
+
+## Resources
+
+https://www.nngroup.com/articles/mobile-first-not-mobile-only/
 
 ***
 
