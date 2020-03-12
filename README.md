@@ -28,25 +28,25 @@ Mobile-first design principles provide web applications intrinsic value regardle
 
 In terms of iterative design, a mobile-first approach adds bells and whistles as the screen scales up. This way we do not lose elements of the user’s critical journey as we scale the screen size down. The goal is to develop software that is focused, simple to scale, and does not require infrastructure planning feature by feature so that:
 
-1. __Designers will focus on critical user journeys__
-    By starting in a small window, we guarantee that the most important features are accessible to the user by the mere fact they are using a web browser.
-1. __Developers will focus on delivering business features__
-    In most cases, developers are already using debugging tools and IDEs that reduce browser window side. Unresponsiveness becomes extremely obvious, must be actively ignored and accomodated during a typical workflow.
-1. __QA can focus on features involved in critical user journeys__
-    Focused views make the software more simplistic and predictable.
+1. __Designers will focus on critical user journeys when laying out features.__
+    - By starting in a small window, we guarantee that the most important features are accessible to the user by the mere fact they are using a web browser.
+1. __Developers will focus on delivering business features.__
+    - In most cases, developers are already using debugging tools and IDEs that reduce browser window size. Unresponsiveness becomes extremely obvious, must be actively ignored and accomodated during a typical workflow.
+1. __QA will interpret and focus on features involved in critical user journeys.__
+    - Focused views make the software more simplistic and predictable.
 
 Additionally, this forces us to think about focused screens which has even more invaluable benefits right out of the box:
 
 4. __Performance gains due to less assets to load and render.__
-    Less on the screen = less elements to render = faster load times.
+    - Less on the screen = less elements to render = faster load times.
 1. __Maintenance efficiencies due to decreased complexity.__
-    The simplicity of focused, faster-loading views are easier for everyone (owners and newcomers) to document and understand. 
+    - The simplicity of focused, faster-loading views are easier for everyone (owners and newcomers) to document and understand. 
 1. __Less technical debt to pay off on accessibility later.__
     Planning is not required to accomodate zooming, window resizing, and alternative screen-sized devices.
 1. __More simplistic state management.__
-    __Deterministic URLs -__ State retention is more predicable and in-bound integrations become free from the UI perspective.
-    __Native browser features -__ Bookmarks, forward and back arrows, and the refresh button will work reliably.
-    __Easier to test -__ Less bugs into production.
+    - __Deterministic URLs -__ State retention is more predicable and in-bound integrations become free from the UI perspective.
+    - __Native browser features -__ Bookmarks, forward and back arrows, and the refresh button will work reliably.
+    - __Easier to test -__ Less bugs into production.
 
 ***
 
